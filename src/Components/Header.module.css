@@ -1,0 +1,18 @@
+.HeroSection {
+    font-size: 35px;
+    margin-top: -100px;
+}
+
+.Icons {
+    font-size: 35px;
+    color: lightskyblue;
+    margin-top: -100px;
+}
+
+
+@media (max-width: 480px) {
+    .HeroSection {
+        width: 181px;
+        margin-left: -180%;
+    }
+}

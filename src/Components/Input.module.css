@@ -1,0 +1,63 @@
+.Task {
+    font-size: 1em;
+    border: 1px solid lightgray;
+    padding: 10px;
+    position: relative;
+    right: 42%;
+    width: 176%;
+}
+
+.TaskName {
+    margin-top: 45px;
+    height: 27px;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.3);
+    font-size: 1em;
+}
+
+.Delete {
+    background-color: #CD5C5C;
+    position: relative;
+    left: 10%;
+    bottom: 1px;
+    border: none;
+    color: white;
+    width: 41px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Submit {
+    background-color: #00FF7F;
+    position: relative;
+    right: 10%;
+    border: none;
+    color: white;
+    width: 41px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Submit:hover {
+    background-color: #228B22;
+}
+
+.Delete:hover {
+    background-color: #8B0000;
+}
+
+@media (max-width: 480px) {
+    .TaskName {
+        margin-left: -200%;
+    }
+    
+    .Task {
+    right: 350%;
+    width: 650%;
+    }
+
+    .Delete {
+        left: 380%;
+    }
+}

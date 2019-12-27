@@ -1,0 +1,30 @@
+.Window {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: #f6f6f6;
+    border: 1px solid white;
+    padding: 150px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+    .Window {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+
+@media (max-width: 480px) {
+    .Window {
+        width: 340px;
+        left: calc(50% - 170px);
+    }
+}
+
+
+
+
