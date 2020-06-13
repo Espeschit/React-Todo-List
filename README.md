@@ -1,5 +1,3 @@
-In the project directory, run:
+### `Todo app`
 
-### `yarn start`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Simple ReactJS app for creating tasks and storing them in the Firebase Realtime Database 
